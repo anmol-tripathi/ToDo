@@ -1,0 +1,40 @@
+body{
+  background-color: #f8f6f6;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
+.main h1{
+  text-align: center;
+}
+.inputtodo{
+  margin:10% 2%;
+}
+.inputtodo input{
+  padding:5px;
+  width: 80%;
+}
+.container{
+  background-color: #bab6b6;
+  width: 40%;
+  padding: 2px;
+}
+.inputtodo button{
+  padding:1% 5%;
+
+}
+.inputtodo button:hover{
+  font-weight: bold;
+}
+@media(min-width:200px) and (max-width:1000px){
+  .container{
+    width: 90%;
+  }
+  .inputtodo input{
+    width: 70%;
+  }
+}
